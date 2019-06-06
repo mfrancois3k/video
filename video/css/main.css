@@ -1,0 +1,40 @@
+body {
+  background: #000;
+  margin: 0;
+}
+
+
+.myButton {
+	background-color:transparent;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#18ab29;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:16px 21px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:transparent;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+       
+
+#myVideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100vw; 
+  min-height: 100vh;
+}
